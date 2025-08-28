@@ -1,5 +1,5 @@
 class Api::V1::RegistrationsController < Devise::RegistrationsController
-  nclude RackSessionFix
+  include RackSessionFix
   respond_to :json
 
   private
